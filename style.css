@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Sunflower:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Sunflower', sans-serif;
+  margin:0;
+  background-image: url('back01.png');
+  background-color: #D9E5FF;
+
+}
+image{
+  position: fixed;
+}
+  a {
+    color:white;
+    text-decoration: none;
+  }
+  h1 {
+    font-family: 'Gugi', cursive;
+    font-size:80px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+  }
+  #menu{
+    background: skyblue;
+  }
+  #menu ul{
+    width:500px;
+    margin: 0 auto;
+    overflow: hidden;
+    list-style: none;
+    font-size:20px;
+
+  }
+  #menu ul li{
+    float: left;
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: skyblue;
+
+  }
+  #menu ul li a{
+    display: block;
+  }
+  #menu ul li a:hover{
+    background: pink;
+    color: #fff
+  }
+  #daimon{
+    text-align: center;
+  }
+
+  @media(max-width:800px){
+    #grid{
+      display: block;
+    }
+    #grid ol{
+      border-right:none;
+    }
+    h1 {
+      border-bottom:none;
+    }
+  }
+.ibt{
+  background: url("soccer.jpg") no-repeat;
+  border: none;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
